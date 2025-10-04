@@ -7,8 +7,8 @@ in use with https://github.com/tucommenceapousser/malicious-pdf
 📌 Exemple d’utilisation
 
 ```bash
-chmod +x generate_pdfs.sh
-./generate_pdfs.sh 127.0.0.1 4545
+chmod +x genpdf.sh
+./genpdf.sh 127.0.0.1 4545
 ```
 
 Cela va :
