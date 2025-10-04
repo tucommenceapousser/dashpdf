@@ -1,0 +1,12 @@
+# dashpdf + malicious-pdf combined requirements
+# Core for dashboard + telegram
+Flask
+requests
+
+# Validator lib requested
+validators
+
+# Libraries commonly used by malicious-pdf (PDF generation/manipulation)
+reportlab
+Pillow
+lxml
