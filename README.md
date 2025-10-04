@@ -38,6 +38,8 @@ python3 dashboard.py
 ### ouvrir http://<IP_VPS>:8080
 ### login: mot de passe = Trh@ckn0n
 
+# SSL is optionnal :
+
 # Générer un certificat auto-signé (rapide — pour tests)
 
 Génère une clé RSA 4096 et un certificat auto-signé valide 1 an (remplace your.vps.domain si tu veux un CN spécifique) :
