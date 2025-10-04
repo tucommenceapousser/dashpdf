@@ -2,6 +2,21 @@
 
 in use with https://github.com/tucommenceapousser/malicious-pdf
 
+# Generer les pdf infectés
+
+📌 Exemple d’utilisation
+
+```bash
+chmod +x generate_pdfs.sh
+./generate_pdfs.sh 127.0.0.1 4545
+```
+
+Cela va :
+
+générer les PDF avec http://127.0.0.1:4545 comme callback
+
+déposer test1.pdf … test11.pdf directement dans ./dashpdf/
+
 Exécution recommandée — rapide
 
 1. Déposer listener.py et dashboard.py sur ton VPS (même dossier).
